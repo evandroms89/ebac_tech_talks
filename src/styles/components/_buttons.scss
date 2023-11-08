@@ -11,7 +11,15 @@
     &--primary {
         color: #fff;
         background-color: variables.$purple;
+        border: 2px solid variables.$purple;
+
+        &:hover {
+            color: variables.$purple;
+            background-color: #fff;
+            border: 2px solid variables.$purple;
+        }
     }
+
 
     @media (max-width: 640px) {
         display: block;
